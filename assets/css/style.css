@@ -4,10 +4,277 @@
     padding: 0;
 }
 
+
+body{
+    max-width: 100%;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+.container{
+    max-width: 90%;
+    margin: 0 auto;
+}
+
+
+section{
+    padding: 100px 0;
+    background: #0B1A44;
+}
+
+#background-video {
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+}
+
+.sec-head{
+    font-weight: 800;
+    font-size: 60px;
+    -webkit-text-stroke: 2px black;
+    -webkit-text-fill-color: white;
+}
+
+p{
+    color: #fff;
+    font-weight: 800;
+    font-size: 25px;
+    -webkit-text-stroke: 0.5px black;
+    -webkit-text-fill-color: white;
+}
+
+
+/* Header and Navbar */
+
+header{
+    position: relative;
+    margin-bottom: -75px;
+}
+
+.navbar-brand{
+    color: #fff;
+    font-weight: 800;
+}
+
+.nav-item a{
+    color: #fff !important;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.nav-item a:hover{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.2);
+}
+
+.main-logo{
+    width: 300px; 
+    height: 300px;
+}
+
+.main-desc{
+    font-size: 55px;
+    font-weight: 800;
+    -webkit-text-stroke: 1px black;
+    -webkit-text-fill-color: white;
+    text-align: center;
+}
+
+.btn-top{
+    padding: 0.5em;
+    width: 200px;
+    border-radius: 40px;
+    font-weight: 700;
+    font-size: 25px;
+    color: #fff;
+    background: rgb(7, 46, 7);
+}
+
+
+/* Hero Section */
+
 .hero{
     height: 100vh;
-    background: blue;
     display: flex;
     align-items: center;
     justify-content: center;
+    background: transparent;
 }
+
+/* End of Tokens Section */
+
+.end-para{
+    font-size: 35px;
+    color: #fff;
+}
+
+/* Tokenomics Section */
+
+#tokenomics{
+    background: #376AB2;
+}
+
+#tokenomics .sec-head{
+    -webkit-text-stroke: unset;
+    -webkit-text-fill-color: unset;
+    color: #fff;
+    font-size: 95px;
+}
+
+.toke-item{
+    padding: 1em;
+    background: #376AB2;
+    border-radius: 20px;
+    border: 2px solid #fff;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.toke-head{
+    font-size: 65px;
+    font-weight: 600;
+    color: #fff;
+    
+}
+
+.toke-sub{
+    font-size: 30px;
+    color: #d3d3d3 !important;
+}
+
+.toke-value{
+    font-size: 55px;
+    color: #fff;
+}
+
+.toke-item:nth-child(2){
+    margin-left: -100px
+}
+
+@media only screen and (max-width: 1500px) {
+
+    p{
+        color: #fff;
+        font-weight: 800;
+        font-size: 22px;
+    }
+
+    .main-logo{
+        width: 200px;
+        height: auto;
+    }
+
+    .main-desc{
+        font-size: 38px;
+    }
+
+    .sec-head{
+        font-size: 50px;
+    }
+
+    .end-para{
+        font-size: 28px;
+    }
+
+    
+    .toke-head{
+        font-size: 40px;
+        font-weight: 600;
+        color: #fff;
+    }
+    
+    .toke-sub{
+        font-size: 25px;
+        color: #d3d3d3 !important;
+    }
+    
+    .toke-value{
+        font-size: 45px;
+        color: #fff;
+    }
+
+    #tokenomics .sec-head{
+        -webkit-text-stroke: unset;
+        -webkit-text-fill-color: unset;
+        color: #fff;
+        font-size: 75px;
+    }
+
+  }
+
+@media only screen and (max-width: 700px) {
+
+    .container{
+        max-width: 99%;
+    }
+
+    p{
+        color: #fff;
+        font-weight: 800;
+        font-size: 18px;
+    }
+
+    .main-logo{
+        width: 150px;
+        margin-bottom: 30px;
+        height: auto;
+    }
+
+    .main-desc{
+        font-size: 25px;
+        text-align: left;
+    }
+
+    
+    .btn-top{
+        padding: 0.5em;
+        width: 170px;
+        border-radius: 40px;
+        font-weight: 500;
+        font-size: 25x;
+        color: #fff;
+        background: rgb(7, 46, 7);
+    }
+
+    .sec-head{
+        font-size: 35px;
+    }
+
+    .end-para{
+        font-size: 28px;
+    }
+
+    .toke-head{
+        font-size: 35px;
+        font-weight: 600;
+        color: #fff;
+    }
+    
+    .toke-sub{
+        font-size: 22px;
+        color: #d3d3d3 !important;
+    }
+    
+    .toke-value{
+        font-size: 35px;
+        color: #fff;
+    }
+
+    .toke-item:nth-child(2){
+        margin-left: unset;
+    }
+
+    #tokenomics .sec-head{
+        -webkit-text-stroke: unset;
+        -webkit-text-fill-color: unset;
+        color: #fff;
+        font-size: 35px;
+    }
+
+  }

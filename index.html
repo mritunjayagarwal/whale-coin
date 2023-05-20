@@ -1,96 +1,213 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>WholeCoin</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <link rel="stylesheet" href="./assets/css/style.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>WholeCoin</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="./assets/css/style.css">
 </head>
+
 <body>
 
-<header>
-    <nav class="navbar navbar-expand-lg fixed-top py-3 m-0" data-aos = "fade-down" data-aos-delay = "800">
+  <header>
+    <nav class="navbar navbar-expand-lg py-3 m-0" data-aos="fade-down" data-aos-delay="800">
+      <div class="container">
         <!-- Container wrapper -->
-          <!-- Navbar brand -->
-          <a class="navbar-brand me-2" href="#">
-            <img src="./img/logo.png" style = "width: 30px; height: auto;margin-top: -10px" alt=""> KUWA
-          </a>
-      
-          <!-- Toggle button -->
-          <button class="navbar-toggler text-white" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-            <i class = "fa fa-bars"></i>
-          </button>
-      
-          <!-- Collapsible wrapper -->
-          <div class="collapse navbar-collapse text-white" id="navbarText">
-            <ul class="navbar-nav ml-auto mb-2 mb-lg-0">
-              <li class = "nav-item">
-                <a href = "#" class="px-3 pt-2 btn-link">
-                    Home
-                  </a>
-              </li>
-              <li class = "nav-item">
-                <a href = "#project" class="px-3 pt-2 btn-link">
-                    About Us
-                  </a>
-              </li>
-              <li class = "nav-item">
-                <a href = "#buy" class="px-3 pt-2 btn-link">
-                    How to Buy
-                  </a>
-              </li>
-              <li class = "nav-item">
-                <a href = "#bott" class="px-3 pt-2 btn-link">
-                    Socials
-                  </a>
-              </li>
-              <li class = "nav-item">
-                <a href="">
-                    <button type="button" class="px-3 btn pt-2 px-5 uni-btn" data-toggle="modal" data-target="#exampleModal" style = "font-size: 15px;margin-top: -8px; font-weight: 600;">
-                        Buy on Uniswap
-                      </button>
-                </a>
-              </li>
-            </ul>
-          </div>
-          <!-- Collapsible wrapper -->
+        <!-- Navbar brand -->
+        <a class="navbar-brand me-2" href="#">
+          <img src="./assets/img/log.png" style="width: 50px; height: auto;margin-top: -5px" alt=""> WhaleCoin
+        </a>
+
+        <!-- Toggle button -->
+        <button class="navbar-toggler text-white" type="button" data-toggle="collapse" data-target="#navbarText"
+          aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+          <i class="fa fa-bars"></i>
+        </button>
+
+        <!-- Collapsible wrapper -->
+        <div class="collapse navbar-collapse text-white" id="navbarText">
+          <ul class="navbar-nav ml-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a href="#" class="px-3 pt-2 btn-link">
+                About
+              </a>
+            </li>
+            <li class="nav-item">
+              <a href="#project" class="px-3 pt-2 btn-link">
+                Roadmap
+              </a>
+            </li>
+            <li class="nav-item">
+              <a href="#buy" class="px-3 pt-2 btn-link">
+                Collections
+              </a>
+            </li>
+            <li class="nav-item">
+              <a href="#bott" class="px-3 pt-2 btn-link">
+                Connect to Wallet
+              </a>
+            </li>
+          </ul>
         </div>
-        <!-- Container wrapper -->
-      </nav>
-    </header>
+        <!-- Collapsible wrapper -->
+      </div>
+      <!-- Container wrapper -->
+      </div>
+    </nav>
+  </header>
 
-    <main>
-        <section class = "hero">
-            <div>
-                <div class="px-2">
-                    <h1 class="text-center text-white main-heading" data-aos="fade-up" data-aos-duration = "500"><img src="./assets/img/logo.png" style = "width: 200px; height: 200px;" alt="logo"></h1>
-                    <hr class="w-50 mx-auto bg-light">
-                    <p class="text-center text-white main-desc" data-aos="fade-up" data-aos-delay = "400" data-aos-duration = "500">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Temporibus sapiente aliquid corporis necessitatibus dicta. Nostrum, libero? Repellat nisi illum, cumque eaque quisquam similique? Error veniam temporibus, blanditiis laboriosam odit possimus! Traders</p>
-                    <p class="text-center text-white main-desc" data-aos="fade-up" data-aos-delay = "400" data-aos-duration = "500">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Temporibus sapiente aliquid corporis necessitatibus dicta. Nostrum, libero? Repellat nisi illum, cumque eaque quisquam similique? Error veniam temporibus, blanditiis laboriosam odit possimus! Traders</p>
-                    <div class="d-flex justify-content-center">
-                        <div class="px-2">
-                            <button class="btn btn-light btn-top" data-aos="fade-up" data-aos-delay = "1000" data-aos-duration = "500">Telegram</button>
-                        </div>
-                        <div class="px-2">
-                            <button class="btn btn-light btn-top" data-aos="fade-up" data-aos-delay = "1500" data-aos-duration = "500">Twitter</button>
-                        </div>
-                    </div>
-                </div>
+  <main>
+    <section class="hero">
+      <video id="background-video" playsinline autoplay loop muted poster="https://assets.codepen.io/6093409/river.jpg">
+        <source src="./assets/bg.mp4" type="video/mp4">
+      </video>
+      <div class="container">
+        <div class="px-2">
+          <h1 class="text-center" data-aos="fade-up" data-aos-duration="500"><img src="./assets/img/logo.png"
+              class="main-logo" alt="logo"></h1>
+          <p class="text-white main-desc" data-aos="fade-up" data-aos-delay="400" data-aos-duration="500">
+            Dive into the Crypto Ocean: Make Waveswith WhaleCoin, Where $WHALE, theMajestic Sea Guardian, Rules the
+            Tides
+          </p>
+          <div class="d-flex justify-content-center">
+            <div class="px-2">
+              <button class="btn btn-light btn-top" data-aos="fade-up" data-aos-delay="1000"
+                data-aos-duration="500">Telegram</button>
             </div>
-        </section>
+            <div class="px-2">
+              <button class="btn btn-light btn-top" data-aos="fade-up" data-aos-delay="1500"
+                data-aos-duration="500">Twitter</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
-        <section>
-            
-        </section>
-    </main>
+    <section id="about">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 text-center d-flex justify-content-center align-items-center">
+            <div>
+              <img src="./assets/img/logo.png" style="width: 200px; height: auto; margin-bottom: -70px" alt="">
+              <img src="./assets/img/1.png" class="img-fluid" style="width: 80%; height: auto;" alt="">
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <h1 class="sec-head">About WhaleCoin</h1>
+            <p class="reg-para">Dive into the Crypto Abyss with WhaleCoin, where the Mighty Whale reigns supreme as the
+              Guardian of the
+              Deep Seas!</p>
+
+            <p class="reg-para">In the vast expanse of the crypto world, the Whale symbolizes strength and wisdom,
+              navigating the depths
+              with grace and precision. Just as the Whale roams the ocean's abyss, our community of WhaleCoin holders
+              delves fearlessly into the depths of the blockchain realm.</p>
+
+            <p class="reg-para">With the Whale by our side, we embark on an epic journey, exploring uncharted
+              territories and uncovering
+              hidden treasures. Together, we navigate the currents of opportunity and ride the waves of innovation.</p>
+
+            <p class="reg-para">Its time to become a Whale</p>
+
+            <p class="reg-para">Contract Address:</p>
+
+            <p class="reg-para">Mail:</p>
+
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="End">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 order-md-2 d-flex justify-content-center align-items-center">
+            <img src="./assets/img/2.png" style="width: 90%;" alt="">
+          </div>
+          <div class="col-lg-6 order-md-1 d-flex align-items-center justify-content-center">
+            <div>
+              <h1 class="sec-head text-center">End Of Other Tokens</h1>
+              <h1 class="text-center mt-5 end-para">WhaleCoin, the crypto predator's delight,</h1>
+              <h1 class="text-center mt-5 end-para">Devouring tokens with an insatiable bite.</h1>
+              <h1 class="text-center mt-5 end-para">Feasting on rivals, its hunger unfurled,</h1>
+              <h1 class="text-center mt-5 end-para">Consuming others, as the crypto world twirls.</h1>
+              <div class="px-2 text-center mt-5">
+                <button class="btn btn-light btn-top" data-aos="fade-up" data-aos-delay="1000"
+                  data-aos-duration="500">Buy Now</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="tokenomics">
+      <div class="container">
+        <h1 class="text-center sec-head">Whale-O-Nomics</h1>
+        <div class="row">
+          <div class="col-lg-7">
+            <img src="./assets/img/3.png" class="w-100" alt="">
+          </div>
+          <div class="col-lg-5 d-flex align-items-center">
+            <div class="w-100 mt-5">
+              <div class="w-100">
+                <div class="d-flex toke-item">
+                  <div class="text-center" style="flex: 1">
+                    <h1 class="toke-head">Total</h1>
+                    <p class="toke-sub">Supply</p>
+                  </div>
+                  <div style="flex: 1">
+                    <div class="d-flex align-items-center justify-content-center h-100">
+                      <h1 class="toke-value">618,000</h1>
+                    </div>
+                  </div>
+                </div>
+                <div class="d-flex toke-item">
+                  <div class="text-center" style="flex: 1">
+                    <h1 class="toke-head">Total</h1>
+                    <p class="toke-sub">Tax</p>
+                  </div>
+                  <div style="flex: 1">
+                    <div class="d-flex align-items-center justify-content-center h-100">
+                      <h1 class="toke-value">3%</h1>
+                    </div>
+                  </div>
+                </div>
+                <div class="d-flex toke-item">
+                  <div class="text-center" style="flex: 1">
+                    <h1 class="toke-head">LIQUIDITY</h1>
+                    <p class="toke-sub">Locked</p>
+                  </div>
+                  <div style="flex: 1">
+                    <div class="d-flex align-items-center justify-content-center h-100">
+                      <!-- <h1 class = "toke-value">618,000</h1> -->
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
 
 
 
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 </body>
+
 </html>
