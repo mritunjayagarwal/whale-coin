@@ -93,7 +93,8 @@ header{
     font-weight: 700;
     font-size: 25px;
     color: #fff;
-    background: rgb(7, 46, 7);
+    background: #123353;
+    border: 2px solid #fff;;
 }
 
 
@@ -157,6 +158,103 @@ header{
     margin-left: -100px
 }
 
+
+/* Roadmap */
+
+.roadmap-web{
+    display: block;
+}
+
+.roadmap-mobile{
+    display: none;
+}
+
+/*=================================================================
+  Footer section
+==================================================================*/
+.top-footer {
+    background-color: #222222;
+    border-top: 1px solid #404040;
+    padding: 100px 0 80px;
+  }
+  
+  .top-footer h3 {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #376AB2;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+  }
+  
+  .top-footer p {
+    font-size: 13px;
+    line-height: 30px;
+    color: #bdbdbd;
+    font-weight: 300;
+    -webkit-text-stroke: unset;
+    -webkit-text-fill-color: unset;
+    padding-right: 20px;
+  }
+  
+  .top-footer li a {
+    font-size: 13px;
+    line-height: 30px;
+    color: #bdbdbd;
+    font-weight: 300;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+    transition: color .3s;
+    font-family: "Titillium Web", sans-serif;
+    display: block;
+  }
+  
+  .top-footer li a:hover {
+    color: #f0326b;
+  }
+  
+  .footer-bottom {
+    text-align: center;
+    background-color: #1b1b1b;
+    border-top: 1px solid #2c2c2c;
+    padding: 30px 0;
+  }
+  
+  .footer-bottom h5 {
+    font-size: 12px;
+    line-height: 1;
+    color: #888888;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-top: 7px;
+    margin-bottom: 3px;
+  }
+  
+  .footer-bottom h6 {
+    font-size: 11px;
+    line-height: 15px;
+    color: #888888;
+    font-weight: 400;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+    margin-bottom: 0;
+  }
+  
+  .footer-bottom p {
+    color: #656565;
+  }
+  
+  .footer-bottom a {
+    color: #f0326b;
+  }
+  
+  .subscribe-form .form-control {
+    border-radius: 0;
+  }
+  
+
 @media only screen and (max-width: 1500px) {
 
     p{
@@ -214,6 +312,15 @@ header{
         max-width: 99%;
     }
 
+    .nav-item{
+        margin: 10px 0 !important;
+        /* margin-left: -12px !important; */
+    }
+
+    .navbar-collapse{
+        background: #123353
+    }
+
     p{
         color: #fff;
         font-weight: 800;
@@ -239,7 +346,6 @@ header{
         font-weight: 500;
         font-size: 25x;
         color: #fff;
-        background: rgb(7, 46, 7);
     }
 
     .sec-head{
@@ -275,6 +381,14 @@ header{
         -webkit-text-fill-color: unset;
         color: #fff;
         font-size: 35px;
+    }
+
+    .roadmap-mobile{
+        display: block;
+    }
+
+    .roadmap-web{
+        display: none;
     }
 
   }
