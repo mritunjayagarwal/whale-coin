@@ -175,7 +175,7 @@ header{
   Footer section
 ==================================================================*/
 .top-footer {
-    background-color: #222222;
+    background-color: #0B1A44;
     border-top: 1px solid #404040;
     padding: 100px 0 80px;
   }
@@ -183,7 +183,7 @@ header{
   .top-footer h3 {
     font-size: 16px;
     line-height: 1.5;
-    color: #376AB2;
+    color: #fff;
     font-weight: 700;
     text-transform: uppercase;
     letter-spacing: 1px;
