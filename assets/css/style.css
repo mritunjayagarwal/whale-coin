@@ -193,18 +193,22 @@ header{
   .top-footer p {
     font-size: 13px;
     line-height: 30px;
-    color: #bdbdbd;
+    color: #fff;
     font-weight: 300;
     -webkit-text-stroke: unset;
     -webkit-text-fill-color: unset;
     padding-right: 20px;
   }
+
+  .top-footer ul{
+    list-style-type: none;
+  }
   
   .top-footer li a {
     font-size: 13px;
     line-height: 30px;
-    color: #bdbdbd;
-    font-weight: 300;
+    color: #fff;
+    font-weight: 500;
     letter-spacing: 1px;
     text-transform: capitalize;
     transition: color .3s;
