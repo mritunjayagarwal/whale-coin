@@ -303,6 +303,10 @@ header{
         color: #fff;
     }
 
+    .toke-item:nth-child(2){
+        margin-left: unset;
+    }
+
     #tokenomics .sec-head{
         -webkit-text-stroke: unset;
         -webkit-text-fill-color: unset;
@@ -316,6 +320,10 @@ header{
 
     .container{
         max-width: 99%;
+    }
+
+    section{
+        padding: 50px 0;
     }
 
     .nav-item{
