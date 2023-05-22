@@ -368,11 +368,11 @@ header {
 
 
     .btn-top {
-        padding: 0.5em;
+        padding: 0.2em 0.5em !important;
         width: 170px;
         border-radius: 40px;
         font-weight: 500;
-        font-size: 25x;
+        font-size: 20px !important;
         color: #fff;
     }
 
