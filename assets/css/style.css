@@ -1,26 +1,26 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;800&display=swap');
 
-*{
+* {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
 
 
-body{
+body {
     max-width: 100%;
     overflow-x: hidden;
     overflow-y: auto;
     font-family: 'Montserrat', sans-serif;
 }
 
-.container{
+.container {
     max-width: 90%;
     margin: 0 auto;
 }
 
 
-section{
+section {
     padding: 100px 0;
     background: #0B1A44;
 }
@@ -37,7 +37,7 @@ section{
     z-index: -1;
 }
 
-.sec-head{
+.sec-head {
     font-weight: 800;
     font-size: 60px;
     color: #fff;
@@ -45,7 +45,7 @@ section{
     -webkit-text-fill-color: white; */
 }
 
-p{
+p {
     color: #fff;
     font-weight: 800;
     font-size: 25px;
@@ -54,33 +54,33 @@ p{
 
 /* Header and Navbar */
 
-header{
+header {
     position: relative;
     margin-bottom: -75px;
 }
 
-.navbar-brand{
+.navbar-brand {
     color: #fff;
     font-weight: 800;
 }
 
-.nav-item a{
+.nav-item a {
     color: #fff !important;
     font-size: 20px;
     text-decoration: none;
 }
 
-.nav-item a:hover{
+.nav-item a:hover {
     text-decoration: none;
     color: rgba(255, 255, 255, 0.2);
 }
 
-.main-logo{
-    width: 300px; 
+.main-logo {
+    width: 300px;
     height: 300px;
 }
 
-.main-desc{
+.main-desc {
     font-size: 40px;
     font-weight: 800;
     /* -webkit-text-stroke: 1px black;
@@ -88,7 +88,7 @@ header{
     text-align: center;
 }
 
-.btn-top{
+.btn-top {
     padding: 0.5em;
     width: 200px;
     border-radius: 40px;
@@ -96,13 +96,14 @@ header{
     font-size: 25px;
     color: #fff;
     background: #123353;
-    border: 2px solid #fff;;
+    border: 2px solid #fff;
+    ;
 }
 
 
 /* Hero Section */
 
-.hero{
+.hero {
     height: 100vh;
     display: flex;
     align-items: center;
@@ -110,27 +111,35 @@ header{
     background: transparent;
 }
 
+/* About */
+
+.about-logo {
+    width: 200px;
+    height: auto;
+    margin-bottom: -70px
+}
+
 /* End of Tokens Section */
 
-.end-para{
+.end-para {
     font-size: 35px;
     color: #fff;
 }
 
 /* Tokenomics Section */
 
-#tokenomics{
+#tokenomics {
     background: #376AB2;
 }
 
-#tokenomics .sec-head{
+#tokenomics .sec-head {
     -webkit-text-stroke: unset;
     -webkit-text-fill-color: unset;
     color: #fff;
     font-size: 95px;
 }
 
-.toke-item{
+.toke-item {
     padding: 1em;
     background: #376AB2;
     border-radius: 20px;
@@ -139,35 +148,35 @@ header{
     width: 100%;
 }
 
-.toke-head{
+.toke-head {
     font-size: 65px;
     font-weight: 600;
     color: #fff;
-    
+
 }
 
-.toke-sub{
+.toke-sub {
     font-size: 30px;
     color: #d3d3d3 !important;
 }
 
-.toke-value{
+.toke-value {
     font-size: 55px;
     color: #fff;
 }
 
-.toke-item:nth-child(2){
+.toke-item:nth-child(2) {
     margin-left: -100px
 }
 
 
 /* Roadmap */
 
-.roadmap-web{
+.roadmap-web {
     display: block;
 }
 
-.roadmap-mobile{
+.roadmap-mobile {
     display: none;
 }
 
@@ -178,9 +187,9 @@ header{
     background-color: #0B1A44;
     border-top: 1px solid #404040;
     padding: 100px 0 80px;
-  }
-  
-  .top-footer h3 {
+}
+
+.top-footer h3 {
     font-size: 16px;
     line-height: 1.5;
     color: #fff;
@@ -188,9 +197,9 @@ header{
     text-transform: uppercase;
     letter-spacing: 1px;
     margin-bottom: 20px;
-  }
-  
-  .top-footer p {
+}
+
+.top-footer p {
     font-size: 13px;
     line-height: 30px;
     color: #fff;
@@ -198,13 +207,13 @@ header{
     -webkit-text-stroke: unset;
     -webkit-text-fill-color: unset;
     padding-right: 20px;
-  }
+}
 
-  .top-footer ul{
+.top-footer ul {
     list-style-type: none;
-  }
-  
-  .top-footer li a {
+}
+
+.top-footer li a {
     font-size: 13px;
     line-height: 30px;
     color: #fff;
@@ -214,20 +223,20 @@ header{
     transition: color .3s;
     font-family: "Titillium Web", sans-serif;
     display: block;
-  }
-  
-  .top-footer li a:hover {
+}
+
+.top-footer li a:hover {
     color: #f0326b;
-  }
-  
-  .footer-bottom {
+}
+
+.footer-bottom {
     text-align: center;
     background-color: #1b1b1b;
     border-top: 1px solid #2c2c2c;
     padding: 30px 0;
-  }
-  
-  .footer-bottom h5 {
+}
+
+.footer-bottom h5 {
     font-size: 12px;
     line-height: 1;
     color: #888888;
@@ -236,9 +245,9 @@ header{
     letter-spacing: 2px;
     margin-top: 7px;
     margin-bottom: 3px;
-  }
-  
-  .footer-bottom h6 {
+}
+
+.footer-bottom h6 {
     font-size: 11px;
     line-height: 15px;
     color: #888888;
@@ -246,114 +255,119 @@ header{
     text-transform: capitalize;
     letter-spacing: 2px;
     margin-bottom: 0;
-  }
-  
-  .footer-bottom p {
+}
+
+.footer-bottom p {
     color: #656565;
-  }
-  
-  .footer-bottom a {
+}
+
+.footer-bottom a {
     color: #f0326b;
-  }
-  
-  .subscribe-form .form-control {
+}
+
+.subscribe-form .form-control {
     border-radius: 0;
-  }
-  
+}
+
 
 @media only screen and (max-width: 1500px) {
 
-    p{
+    p {
         color: #fff;
         font-weight: 800;
         font-size: 22px;
     }
 
-    .main-logo{
+    .main-logo {
         width: 200px;
         height: auto;
     }
 
-    .main-desc{
+    .main-desc {
         font-size: 38px;
     }
 
-    .sec-head{
+    .sec-head {
         font-size: 50px;
     }
 
-    .end-para{
+    .end-para {
         font-size: 28px;
     }
 
-    
-    .toke-head{
+
+    .toke-head {
         font-size: 40px;
         font-weight: 600;
         color: #fff;
     }
-    
-    .toke-sub{
+
+    .toke-sub {
         font-size: 25px;
         color: #d3d3d3 !important;
     }
-    
-    .toke-value{
+
+    .toke-value {
         font-size: 45px;
         color: #fff;
     }
 
-    .toke-item:nth-child(2){
+    .toke-item:nth-child(2) {
         margin-left: unset;
     }
 
-    #tokenomics .sec-head{
+    #tokenomics .sec-head {
         -webkit-text-stroke: unset;
         -webkit-text-fill-color: unset;
         color: #fff;
         font-size: 75px;
     }
 
-  }
+}
 
 @media only screen and (max-width: 700px) {
 
-    .container{
+    .container {
         max-width: 99%;
     }
 
-    section{
+    section {
         padding: 50px 0;
     }
 
-    .nav-item{
+    .nav-item {
         margin: 10px 0 !important;
         /* margin-left: -12px !important; */
     }
 
-    .navbar-collapse{
+    .navbar-collapse {
         background: #123353
     }
 
-    p{
+    p {
         color: #fff;
         font-weight: 800;
         font-size: 18px;
     }
 
-    .main-logo{
+    .about-logo{
+        width: 150px;
+        margin-bottom: -20px;
+    }
+
+    .main-logo {
         width: 150px;
         margin-bottom: 30px;
         height: auto;
     }
 
-    .main-desc{
+    .main-desc {
         font-size: 25px;
         text-align: left;
     }
 
-    
-    .btn-top{
+
+    .btn-top {
         padding: 0.5em;
         width: 170px;
         border-radius: 40px;
@@ -362,47 +376,47 @@ header{
         color: #fff;
     }
 
-    .sec-head{
+    .sec-head {
         font-size: 35px;
     }
 
-    .end-para{
+    .end-para {
         font-size: 28px;
     }
 
-    .toke-head{
+    .toke-head {
         font-size: 35px;
         font-weight: 600;
         color: #fff;
     }
-    
-    .toke-sub{
+
+    .toke-sub {
         font-size: 22px;
         color: #d3d3d3 !important;
     }
-    
-    .toke-value{
+
+    .toke-value {
         font-size: 35px;
         color: #fff;
     }
 
-    .toke-item:nth-child(2){
+    .toke-item:nth-child(2) {
         margin-left: unset;
     }
 
-    #tokenomics .sec-head{
+    #tokenomics .sec-head {
         -webkit-text-stroke: unset;
         -webkit-text-fill-color: unset;
         color: #fff;
         font-size: 35px;
     }
 
-    .roadmap-mobile{
+    .roadmap-mobile {
         display: block;
     }
 
-    .roadmap-web{
+    .roadmap-web {
         display: none;
     }
 
-  }
+}
